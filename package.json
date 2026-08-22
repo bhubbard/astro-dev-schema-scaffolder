@@ -1,0 +1,52 @@
+{
+  "name": "astro-dev-schema-scaffolder",
+  "version": "1.0.0",
+  "description": "Astro Dev Toolbar app that inspects the current rendered page and drafts valid Schema.org microdata (TechArticle, Product, Event, FAQPage, Organization, HowTo) ready to paste into frontmatter or copy to clipboard using Gemini Nano (window.ai.languageModel).",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./app": {
+      "types": "./dist/app.d.ts",
+      "import": "./dist/app.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "bun build src/index.ts src/app.ts --outdir ./dist",
+    "typecheck": "bun x tsc --noEmit",
+    "test": "bun test"
+  },
+  "keywords": [
+    "astro",
+    "astro-integration",
+    "dev-toolbar",
+    "schema-org",
+    "json-ld",
+    "gemini-nano",
+    "chrome-ai",
+    "seo",
+    "microdata"
+  ],
+  "author": "Brian Hubbard",
+  "license": "MIT",
+  "peerDependencies": {
+    "astro": ">=5.0.0 <8.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "astro": "^5.4.0",
+    "happy-dom": "^17.1.8",
+    "typescript": "^5.8.0"
+  }
+}
