@@ -5,8 +5,11 @@
 [![Gemini Nano](https://img.shields.io/badge/Chrome%20AI-Gemini%20Nano-4285F4.svg?style=flat-square)](https://developer.chrome.com/docs/ai/built-in)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6.svg?style=flat-square)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-code.brandonhubbard.com-brightgreen?logo=github)](https://code.brandonhubbard.com/astro-dev-schema-scaffolder/)
 
 > **Astro Dev Toolbar App** that inspects the current rendered page and drafts valid, SEO-optimized **Schema.org microdata** (`TechArticle`, `Product`, `Event`, `FAQPage`, `Organization`, `HowTo`) ready to paste into frontmatter or copy to clipboard using on-device Gemini Nano (`window.ai.languageModel`).
+
+> 🎮 **Live Interactive Visualizer & Demo:** [astro-dev-schema-scaffolder on code.brandonhubbard.com](https://code.brandonhubbard.com/astro-dev-schema-scaffolder/)
 
 ---
 
